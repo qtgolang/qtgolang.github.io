@@ -1,0 +1,36 @@
+.版本 2
+.支持库 spec
+
+.子程序 __启动窗口_创建完毕
+.局部变量 连接成功, 逻辑型
+.局部变量 连接地址, 文本型
+.局部变量 Heads, 文本型
+.局部变量 数据类型, 整数型
+
+' wss客户端 是全局的【SunnyWSS客户端】类型，变量
+
+连接地址 ＝ “wss://xxxxxxxxxxxxxxxxxxxxxxxxxx”
+Heads ＝ “User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)” ＋ #换行符
+Heads ＝ Heads ＋ “Upgrade: websocket” ＋ #换行符
+Heads ＝ Heads ＋ “” ＋ #换行符
+
+' 连接地址 可以是 ws 和 wss
+连接成功 ＝ wss客户端.连接 (连接地址, Heads, , 真, , , , )
+调试输出 (连接成功)
+.如果真 (连接成功)
+    ' 注意调整发送数据的第二个参数
+    ' 如果不知道 都试试
+    wss客户端.发送数据 (到字节集 (“hello”), #WS客户端_TextMessage)
+    wss客户端.发送数据 (到字节集 (“hello”), #WS客户端_BinaryMessage)
+
+    ' 数据类型 是参考
+    ' 一般来说 接收是什么数据类型  那么发送就是什么数据类型
+    调试输出 (wss客户端.接收数据 (5000, 数据类型))
+
+    wss客户端.发送数据 (到字节集 (“hello”), #WS客户端_TextMessage)
+
+    调试输出 (wss客户端.接收数据 (5000, 数据类型))
+    调试输出 (wss客户端.接收数据 (5000, 数据类型))
+    调试输出 (wss客户端.接收数据 (5000, 数据类型))
+
+.如果真结束

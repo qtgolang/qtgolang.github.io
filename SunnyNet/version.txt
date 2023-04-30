@@ -1,0 +1,9 @@
+2023-04-24----https://wwxa.lanzouy.com/b0chonmhg|fboi----1.DLL修复ws客户端可能导致闪退的1个问题|2.抓包工具修复搜索时的大小写问题|3.抓包工具修复TCP无法中断停止插入数据
+2023-04-09----https://wwxa.lanzouy.com/b0chmo96b|1cv4----修复POST上传大数据时，可能卡住的问题
+2023-04-03----https://wwxa.lanzouy.com/b0chlvene|bw06----修复协议头值可能出现": "的问题 例如 Token: {"Token": "123456789"} 出错的问题
+2023-03-29----https://wwf.lanzouy.com/b0ch179na|6m1x----增加了TCP，ws/wss 可主动向客户端发送数据
+2022-09-22----https://wwc.lanzouy.com/b0cgv9uba|a348----1.DLL重写调用驱动相关|1.DLL修复httpPOST请求特定情况下Body错误的情况|1.抓包工具添加WS/TCP请求复制消息停止插入的功能
+2022-09-19----https://wwc.lanzouy.com/b0cguwl5c|925d----1.DLL修复仅转发时的提示问题
+2022-09-16----https://wwc.lanzouy.com/b0cgukuhg|gdzl----1.DLL更新一个功能|2.抓包工具主要更新UIWS、TCP请求增加清空，解决数据错乱等问题，增加PB数据解析，优化搜索功能|3.易语言模块http发起请求时增加终止请求命令|4.C#增加终止请求命令
+2022-09-04----https://wwc.lanzouy.com/b0cgt238b|750z----修复 于上个版本（2022-09-03）加载DLL会导致出现cmd黑窗口一闪而过的问题
+2022-09-03----https://wwc.lanzouy.com/b0cgt031c|g4m5----1.DLL修复手机谷歌浏览器提示证书时间过长问题

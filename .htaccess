@@ -1,2 +1,5 @@
-RewriteEngine on
-RewriteRule ^forum.php$ index.html [L]
+RewriteEngine On
+RewriteCond %{QUERY_STRING} mod=viewthread [OR]
+RewriteCond %{QUERY_STRING} tid=[0-9]+ [OR]
+RewriteCond %{QUERY_STRING} extra=page%3D[0-9]+
+RewriteRule ^forum\.php$ /index.html? [L,R=301]

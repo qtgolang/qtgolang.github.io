@@ -627,7 +627,7 @@ var Ecode = {
 		function drawn(origiArr){
 			var html="";
 			var endDivTag=0;
-			for(var b=0;b<origiArr.length;b++){
+			for(var b=0;b<origiArr.length;b++){ 
 				if(!isArray(origiArr[b])){
 					if(origiArr[b].type==".程序集"){
 						origiArr[b].parameter=dealTablePara(4,origiArr[b].parameter);
@@ -1353,6 +1353,9 @@ var Ecode = {
 							end=origiStr.indexOf(endStr,end+1);
 						}
 					}
+				}
+				if (start==-1){
+					continue;
 				}
 				var p=origiStr.indexOf(startStr,start+1);
 				if(p==-1){

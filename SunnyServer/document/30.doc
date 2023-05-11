@@ -21,8 +21,16 @@ Sunny服务器套件.添加GET路由 (“index”, 到整数 (&路由函数_inde
 .局部变量 json, SyJson
 .局部变量 DeviceMd5, 文本型
 
-' {"client":{"ServerName":"","SupportedProtos":["h2","http/1.1"],"SupportedPoints":[0],"SupportedCurves":[29,23,24],"SupportedVersions":[772,771],"CipherSuites":[4865,4866,4867,49195,49199,49196,49200,52393,52392,49171,49172,156,157,47,53],"SignatureSchemes":["ECDSAWithP256AndSHA256","PSSWithSHA256","PKCS1WithSHA256","ECDSAWithP384AndSHA384","PSSWithSHA384","PKCS1WithSHA384","PSSWithSHA512","PKCS1WithSHA512"]},"md5":"88bd3cb92eb400fabc11d5c7ef336658"}
 json.解析 (SSLinfo)
+
+调试输出 (json.取值 (“client.ServerName”))
+调试输出 (json.取值 (“client.SupportedProtos”))  ' 列出客户端支持的应用协议。[h2 http/1.1]
+调试输出 (json.取值 (“client.SupportedPoints”))  ' 列出了客户端支持的点格式[0]
+调试输出 (json.取值 (“client.SupportedCurves”))  ' 列出了客户端支持的椭圆曲线。
+调试输出 (json.取值 (“client.SupportedVersions”))  ' 列出了客户端支持的TLS版本。
+调试输出 (json.取值 (“client.CipherSuites”))  ' 客户端支持的密码套件
+调试输出 (json.取值 (“client.SignatureSchemes”))  ' 列出了客户端愿意验证的签名和散列方案
+
 DeviceMd5 ＝ json.取值 (“md5”)
 
 .判断开始 (DeviceMd5 ＝ “20a17778f0859f894a1cc2a04c679d88”)

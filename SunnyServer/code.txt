@@ -18,5 +18,5 @@ Redis使用----https://wwc.lanzouy.com/i0K5H04wynla
 Session简单使用例子----https://wwc.lanzouy.com/idUGh04wynsh
 创建各种验证码及提交验证及创建二维码----https://wwc.lanzouy.com/imtv207vqdoh
 使用多级模板文件和子模板----https://wwc.lanzouy.com/ihnZO09eow4j
-HTTPS服务器使用SSL指纹效验----https://wwxa.lanzouy.com/iTW5o0vj1noj
-TCP服务器使用SSL指纹效验----https://wwxa.lanzouy.com/iPU9k0vj3cfg
+HTTPS服务器使用SSL指纹效验----https://wwxa.lanzouy.com/iJrHH0vj5yte
+TCP服务器使用SSL指纹效验----https://wwxa.lanzouy.com/iN1v50vj5xrg

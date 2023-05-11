@@ -1,3 +1,4 @@
+2023-05-12----https://wwxa.lanzouy.com/b0chr2a8h|5f71----1.修复TCP服务器等客户句柄重复的问题|2.新增SSL指纹效验
 2023-02-20----https://wwxa.lanzouy.com/b0chfqflc|6ole----1.修复BUG,恶意提交POST数据,问题
 2022-12-02----https://wwxa.lanzouy.com/b0ch4wtqb|camd----1.修复数据库使用事务的问题|2.（需使用相对应的模块和DLL）
 2022-11-23----https://wwf.lanzouy.com/b0ch3iwve|blil----1.修复调用Redis取所有键名可能出现闪退问题|2.新增停止服务器时，可以清除已经注册的路由

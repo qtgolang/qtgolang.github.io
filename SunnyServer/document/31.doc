@@ -1,0 +1,108 @@
+.版本 2
+.支持库 spec
+
+.子程序 __启动窗口_创建完毕
+.局部变量 证书, Sunny证书管理器
+
+证书._载入X509KeyPair (取运行目录 () ＋ “\server.crt”, 取运行目录 () ＋ “\server.key”)
+
+' 请注意SSL效验在HTTP服务器下无效，必须使用HTTPS服务器
+
+Sunny服务器套件.添加GET路由 (“index”, 到整数 (&路由函数_index))
+
+调试输出 (Sunny服务器套件.启动HTTP服务器 (“0.0.0.0:443”))
+
+.子程序 SSL指纹认证, 逻辑型
+.参数 SSLinfo, 文本型
+.局部变量 json, SyJson
+.局部变量 DeviceMd5, 文本型
+
+' {"client":{"ServerName":"","SupportedProtos":["h2","http/1.1"],"SupportedPoints":[0],"SupportedCurves":[29,23,24],"SupportedVersions":[772,771],"CipherSuites":[4865,4866,4867,49195,49199,49196,49200,52393,52392,49171,49172,156,157,47,53],"SignatureSchemes":["ECDSAWithP256AndSHA256","PSSWithSHA256","PKCS1WithSHA256","ECDSAWithP384AndSHA384","PSSWithSHA384","PKCS1WithSHA384","PSSWithSHA512","PKCS1WithSHA512"]},"md5":"88bd3cb92eb400fabc11d5c7ef336658"}
+json.解析 (SSLinfo)
+DeviceMd5 ＝ json.取值 (“md5”)
+
+.判断开始 (DeviceMd5 ＝ “20a17778f0859f894a1cc2a04c679d88”)
+    调试输出 (“易语言 网页访问对象 请求 不通过”)
+    ' 认证不通过 '将会直接断开链接
+    返回 (假)
+.判断 (DeviceMd5 ＝ “717d37cbf52a5589abfae663bcce2ceb”)
+    调试输出 (“Python requests 库请求 不通过”)
+    ' 认证不通过 '将会直接断开链接
+    返回 (假)
+.判断 (DeviceMd5 ＝ “41c1a0a0b7fea468f579fe3100c6d48a”)
+    调试输出 (“Firefox 浏览器 认证通过”)
+    返回 (真)
+.判断 (DeviceMd5 ＝ “149e406721fa906e06d7f44589139e0e”)
+    调试输出 (“Firefox 浏览器 认证通过”)
+    返回 (真)
+.判断 (DeviceMd5 ＝ “e92a163261a4777ba6ae540f587468ea”)
+    调试输出 (“Firefox 浏览器 认证通过”)
+    返回 (真)
+.判断 (DeviceMd5 ＝ “ff5fb9c500cb93592dc619b21746d610”)
+    调试输出 (“Firefox 浏览器 认证通过”)
+    返回 (真)
+.判断 (DeviceMd5 ＝ “88bd3cb92eb400fabc11d5c7ef336658”)
+    调试输出 (“Chrome 浏览器 认证通过”)
+    返回 (真)
+.判断 (DeviceMd5 ＝ “43818547191c95092fd5c7145d07ca33”)
+    调试输出 (“Chrome 浏览器 认证通过”)
+    返回 (真)
+.判断 (DeviceMd5 ＝ “4297e191aadbb83bcca9ad0a824c5d18”)
+    调试输出 (“Chrome 浏览器 认证通过”)
+    返回 (真)
+.判断 (DeviceMd5 ＝ “ebcb348cdbaaf5e7a47b197bb9b1255f”)
+    调试输出 (“Chrome 浏览器 认证通过”)
+    返回 (真)
+.判断 (DeviceMd5 ＝ “d6bca75c5b3e771d8a5b83dbf8b0afcb”)
+    调试输出 (“Chrome 浏览器 认证通过”)
+    返回 (真)
+.判断 (DeviceMd5 ＝ “2a5649bb0a3c364491777ddf2678b396”)
+    调试输出 (“IOS 浏览器 认证通过”)
+    返回 (真)
+.判断 (DeviceMd5 ＝ “2dcb3f02b926b086a068d10db1c5ea63”)
+    调试输出 (“IOS 浏览器 认证通过”)
+    返回 (真)
+.判断 (DeviceMd5 ＝ “7e8d9723c8236b9e159d2310c574054f”)
+    调试输出 (“IOS 浏览器 认证通过”)
+    返回 (真)
+.判断 (DeviceMd5 ＝ “0062ef304d078cdf567bbe32349fd446”)
+    调试输出 (“IOS 浏览器 认证通过”)
+    返回 (真)
+.判断 (DeviceMd5 ＝ “811b5bb18faa39a6927a393b4a084249”)
+    调试输出 (“ Android 浏览器 认证通过”)
+    返回 (真)
+.判断 (DeviceMd5 ＝ “3a2220ccf3b251502c646249252d8fe5”)
+    调试输出 (“Safari 浏览器 认证通过”)
+    返回 (真)
+.判断 (DeviceMd5 ＝ “e58713f1e65a280ce3bec3b85e6a3485”)
+    调试输出 (“360Browser 浏览器 认证通过”)
+    返回 (真)
+.默认
+    调试输出 (SSLinfo)
+.判断结束
+
+
+' 认证不通过 '将会直接断开链接
+返回 (假)
+
+.子程序 路由函数_index
+.参数 Context, 整数型
+.局部变量 sy, Sunny
+
+sy ＝ 取回sunny对象 (Context)
+
+' 请注意 获取SSL指纹方法 在HTTP服务器下无效，必须使用HTTPS服务器
+.如果真 (SSL指纹认证 (sy.请求.获取SSL指纹 ()) ＝ 假)
+
+
+    sy.响应.写出文本 (200, “不安全的请求”)
+
+    ' 如果关闭请求 客户端将不会收到上方的设置的数据
+    ' sy.请求.关闭此请求 ()
+
+
+    sy.响应.不再执行其他剩余函数 ()
+    返回 ()
+.如果真结束
+sy.响应.写出文本 (200, “安全的请求”)
+

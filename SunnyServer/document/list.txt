@@ -1,3 +1,6 @@
+HTTPS服务器使用SSL指纹效验1----HTTPS服务器使用SSL指纹效验（方式1）----30.doc
+HTTPS服务器使用SSL指纹效验2----HTTPS服务器使用SSL指纹效验（方式2）----31.doc
+TCP服务器使用SSL指纹效验----TCP服务器使用SSL指纹效验----32.doc
 终止用户请求----根据POST提交长度终止用户请求----29.doc
 JWT使用----JWT使用----28.doc
 html渲染基本使用语法----html渲染基本使用语法----27.doc

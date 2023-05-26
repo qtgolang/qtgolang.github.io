@@ -1,3 +1,4 @@
+2023-05-27----https://wwxa.lanzouk.com/b0chsxbwj|8var----1.DLL修复PB转JSON可能存在的1处问题|2.DLL修复1处可能导致闪退的问题|3.抓包工具修复1处搜索BUG
 2023-05-07----https://wwxa.lanzouy.com/b0chqh3ij|86vq----1.修复一个代理Bug
 2023-04-24----https://wwxa.lanzouy.com/b0chonmhg|fboi----1.DLL修复ws客户端可能导致闪退的1个问题|2.抓包工具修复搜索时的大小写问题|3.抓包工具修复TCP无法中断停止插入数据
 2023-04-09----https://wwxa.lanzouy.com/b0chmo96b|1cv4----修复POST上传大数据时，可能卡住的问题

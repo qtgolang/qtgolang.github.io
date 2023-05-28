@@ -1,5 +1,6 @@
 安卓软件(Kitsuneb)----|----kitsuneb.doc
 (教程)安装证书----|----CertInstallDocument.doc
+设置上游代理----设置上游代理(仅支持Socket5和HTTP代理)----sydd.doc
 HTTP回调示例----[模板]HTTP回调示例----start_http_callback.doc
 WebSocket回调函数示例----[模板]WebSocket回调函数示例----start_ws_callback.doc
 TCP回调示例----[模板]TCP回调示例----start_tcp_callback.doc

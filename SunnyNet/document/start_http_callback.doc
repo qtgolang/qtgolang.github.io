@@ -22,7 +22,7 @@ sunny ＝ MessageIdToSunny (MessageId)
     ' 修改提交数据
     .如果真 (请求方法 ＝ “POST”)
         bin ＝ sunny.请求.取POST数据_字节集 ()
-        bin ＝ 子字节集替换 (bin, 到字节集 (“SunnyNet”), “Hello Sunny”, , )
+        bin ＝ 子字节集替换 (bin, 到字节集 (“SunnyNet”), 到字节集 (“Hello Sunny”), , )
         sunny.请求.修改Body_字节集 (bin)
     .如果真结束
 
@@ -85,3 +85,4 @@ sunny ＝ MessageIdToSunny (MessageId)
 
 
 返回 ()
+

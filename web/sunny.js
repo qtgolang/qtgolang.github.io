@@ -1,7 +1,7 @@
 const _main_Pages = `
   <div class="inner">
       <header id="headerH"> 
-          <a class="logo"><strong style="color: red;">服务器维护不起了，只能用这种低成本的网站了</strong></br>网站域名有:(访问不了时,可切换尝试)</br>https://esunny.vip</br>https://www.esunny.vip</br>https://github.esunny.vip</br></br>Sunny网络中间件 <strong>（完整免费开源-功能介绍）QQ群:751406884</strong>
+          <a class="logo"><strong style="color: red;">服务器维护不起了，只能用这种低成本的网站了</strong></br>网站域名有:(访问不了时,可切换尝试)</br>https://esunny.vip</br>https://www.esunny.vip</br>https://github.esunny.vip</br></br></br></br><h2 style="color: red;">重要提示：</br>如果使用谷歌浏览器下载文件，提示危险</br>请打开设置->隐私和安全->安全->不保护</br>然后重新下载即可，不清楚是什么原因</br>可能是谷歌将蓝奏网址列入了危险网站</h2></br></br></br></br>Sunny网络中间件 <strong>（完整免费开源-功能介绍）QQ群:751406884</strong>
           </a>
       </header>
       <div class="content">

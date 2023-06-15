@@ -1,4 +1,4 @@
-2023-06-16----https://wwxa.lanzouk.com/ibutn0z8qtcb----新增UDP，优化设置界面.等...|需更新DLL、模块、主程序
+2023-06-16----https://wwxa.lanzouk.com/iAuVL0z8qwob----新增UDP，优化设置界面.等...|需更新DLL、模块、主程序
 2023-06-05----https://wwxa.lanzouk.com/i8OJL0yaxo4b----修正驱动文件描述|优化禁止浏览器缓存功能|优化复制文本|优化TCP、ws新增停止插入[发送、接收]
 2023-05-27----https://wwxa.lanzouk.com/iA3nK0xdvyvi----修复搜索BUG
 2023-05-12----https://wwxa.lanzouy.com/iA3Ck0vhf8he----修复搜索BUG

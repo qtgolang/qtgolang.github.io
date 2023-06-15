@@ -6,13 +6,13 @@ const _main_Pages = `
       </header>
       <div class="content">
           <p>Sunny网络中间件 和 Fiddler 模块类似。 是可跨平台的网络分析组件</p>
-          <p>可用于HTTP/HTTPS/WS/WSS/TCP网络分析 无内存泄漏，为二次开发量身制作。</p>
+          <p>可用于HTTP/HTTPS/WS/WSS/TCP/UDP网络分析 无内存泄漏，为二次开发量身制作。</p>
           <h3>SDK功能</h3>
-          <p>支持 获取/修改 HTTP/HTTPS/WS/WSS/TCP/TLS-TCP 发送及返回数据</p>
+          <p>支持 获取/修改 HTTP/HTTPS/WS/WSS/TCP/TLS-TCP/UDP 发送及返回数据</p>
           <p>支持 对 HTTP/HTTPS/WS/WSS 指定连接使用指定代理</p>
           <p>支持 对 HTTP/HTTPS/WS/WSS/TCP/TLS-TCP 链接重定向</p>
           <p>支持 gzip, deflate, br 解码</p>
-          <p>支持 WS/WSS/TCP/TLS-TCP 主动发送数据</p>
+          <p>支持 WS/WSS/TCP/TLS-TCP/UDP 主动发送数据</p>
       </div>
       <header id="header">
           <a class="logo"> Sunny服务器套件 <strong>（完整免费开源-功能介绍）QQ群:616787804</strong>

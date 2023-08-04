@@ -7,7 +7,7 @@
 .参数 消息类型, 整数型, , #Sunny_消息类型_
 .参数 Method, 文本型
 .参数 Url, 文本型
-.参数 pid, 整数型, , 进程PID 若等于0 表示通过代理请求 无进程PID
+.参数 pid, 整数型, , 进程PID 若等于0 表示通过代理远程请求 无进程PID
 .参数 WsMsgType, 整数型, , ws/wss 发送或接收的消息类型 请使用[ #Sunny_WsMessage_]
 
 ' ws 测试地址  http:// coolaf.com/tool/chattest

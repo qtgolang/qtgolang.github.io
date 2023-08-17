@@ -44,7 +44,8 @@ Sunny中间件.绑定回调地址 (http回调函数, Tcp回调函数, WebSocket�
 ' wss 测试地址  https:// www .idcd.com/tool/socket
 ' ===========================================
 ' 相关命令
-' Sunny函数.ws_发送Body (MessageId, WsMsgType, 到字节集 (“123456”)) ' 主动发送消息 可在任意位置调用
+' Sunny函数.ws_发送数据 (发送方向,请求唯一ID, WsMsgType, 到字节集 (“123456”)) ' 主动发送消息 可在任意位置调用
+' Sunny函数.ws_断开指定连接 (请求唯一ID) ' 主动发送消息 可在任意位置调用
 
 .判断开始 (消息类型 ＝ #Sunny_Websocket_消息类型_连接成功)
 

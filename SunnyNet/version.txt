@@ -1,3 +1,4 @@
+2023-09-01----https://wwxa.lanzouc.com/b0cic8fxe|46ca----1.抓包工具修复：上次更新引起的WS主动发送失效问题|2.DLL修复：限制https请求的TLS最大版本1.2,因为TLS1.3可能存在算法不支持|3.DLL修复：修复POST请求可能存在丢失Body的问题|4.DLL修复：修复载入P12证书,密码正确也提示失败的问题|5.C#示例修复一处可能引起闪退的问题
 2023-08-17----https://wwxa.lanzouc.com/b0ci5gt4f|dmtb----1.DLL.修复TCP首次发送数据时候，可能无法关闭主动TCP连接，无法主动向客户端、服务器发送数据的BUG|2.DLL.ws主动发送数据参数改为由MessageId改为唯一ID  <a style="color: red;">【需更新模块，DLL，示例代码】</a>|3.DLL.新增ws主动与服务器断开连接|4.DLL.修复1处可能识别http请求HOST错误的代码|5.抓包工具.新增主动断开TCP,Websocket
 2023-08-15----https://wwxa.lanzouk.com/b0ci4ac9g|atr1----1.DLL新增一个获取DLL版本的命令|2.示例代码更新,使用DLL命令获取DLL版本|3.抓包工具修复删除信息时,可能闪退问题|4.抓包工具修复一些小问题！
 2023-08-05----https://wwxa.lanzouk.com/b0ci1y6mj|hbm0----1.修复一处可能导致内存溢出的问题，<a style="color: red;">需更新模块，DLL，示例代码（否则内存不会释放）</a>|2.C# 示例代码，修复一处可能导致MessageID错误问题。|3.新增，电脑本机设置代理（例如设置IE代理），识别请求由哪个进程发起|4.抓包工具，新增禁用UDP选项,新增过滤PID,进程名|5.修复UDP抓不到返回数据问题.(目前问题,若UDP服务器(A)在本机，UDP客户端(B)也在本机，B首次向A发送数据，需要发送2次，A才能收到，NF驱动问题，暂无解决方案)

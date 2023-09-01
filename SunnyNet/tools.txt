@@ -1,3 +1,4 @@
+2023-09-01----https://wwxa.lanzouc.com/iarPN175c0of----1.修复上次更新引起的WS主动发送失效问题
 2023-08-17----https://wwxa.lanzouc.com/i6R0L15ob82h----1.抓包工具新增主动断开TCP,Websocket
 2023-08-15----https://wwxa.lanzouk.com/ixDpy15h9ykh----1.抓包工具修复删除信息时,可能闪退的问题|2.其他一些小问题
 2023-08-05----https://wwxa.lanzouk.com/icdl314he9sj----1.修复一处可能导致内存溢出的问题，<a style="color: red;">需更新模块，DLL，示例代码（否则内存不会释放）</a>|2.新增，电脑本机设置代理（例如设置IE代理），识别请求由哪个进程发起|3.新增禁用UDP选项,新增过滤PID,进程名|5.修复UDP抓不到返回数据问题.(目前问题,若UDP服务器(A)在本机，UDP客户端(B)也在本机，B首次向A发送数据，需要发送2次，A才能收到，NF驱动问题，暂无解决方案)

@@ -1,7 +1,7 @@
 const _main_Pages = `
   <div class="inner">
       <header id="headerH"> 
-          <a class="logo"><strong style="color: red;">服务器维护不起了，只能用这种低成本的网站了</strong></br>网站域名有:(访问不了时,可切换尝试)</br>https://esunny.vip</br>https://www.esunny.vip</br>https://github.esunny.vip</br></br></br></br><h2 style="color: red;">重要提示：</br>如果使用谷歌浏览器下载文件，提示危险</br>请打开设置->隐私和安全->安全->不保护</br>然后重新下载即可，不清楚是什么原因</br>将文件上传到微云</br>使用谷歌浏览器下载，就不会提示危险！</br>但是微云下载太慢，还是蓝奏吧！</h2></br></br></br></br>Sunny网络中间件 <strong>（完整免费开源-功能介绍）QQ群:751406884 二群：545120699</strong>
+          <a class="logo"><strong style="color: red;">服务器维护不起了，只能用这种低成本的网站了</strong></br>网站域名有:(访问不了时,可切换尝试)</br>https://esunny.vip</br>https://www.esunny.vip</br>https://github.esunny.vip</br></br></br></br><h4 style="color: red;">重要提示：</br>如果使用谷歌浏览器下载文件，提示危险</br>请打开设置->隐私和安全->安全->不保护</br>然后重新下载即可，不清楚是什么原因</br>将文件上传到微云</br>使用谷歌浏览器下载，就不会提示危险！</br>但是微云下载太慢，还是蓝奏吧！</h4></br></br></br></br>Sunny网络中间件 <strong>（完整免费开源-功能介绍）QQ群:751406884 二群：545120699</strong>
           </a>
       </header>
       <div class="content">
@@ -167,7 +167,7 @@ function SunntNet() {
       }
       let UpdateInfo = List[2].split("|");
       if (template == "") {
-        template = "<div class=\"inner\"><header id=\"headerH\"><a class=\"logo\"><strong>Sunny网络中间件</strong> 版本 " + List[0] + "</a></header><div class=\"content\"><h3></h3><p>下载地址：<a  target=\"_blank\" href=\"" + Download[0] + "\">" + Download[0] + "</a></p><p>下载密码：" + Download[1] + "</p><h3 style=\"color: red;\">更新说明</h3>";
+        template = "<div class=\"inner\"><header id=\"headerH\"><a class=\"logo\"><strong>Sunny网络中间件</strong> 版本 " + List[0] + "</a></header><div class=\"content\"><h3></h3><p>下载地址：<a  target=\"_blank\" href=\"" + Download[0] + "\">" + Download[0] + "</a></p><p>下载密码：" + Download[1] + "</p><p><a target=\"_blank\" href=\"https://github.com/qtgolang/SunnyNet\">GitHub 地址</a> ->> 可以帮我点点小星星</p><h3 style=\"color: red;\">更新说明</h3>";
         for (let n = 0; n < UpdateInfo.length; n++) {
           template += "<p>" + UpdateInfo[n] + "</p>";
         }

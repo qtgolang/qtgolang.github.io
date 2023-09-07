@@ -15,6 +15,9 @@
 <header id="header"><a class="logo"><strong> <h style="color: red;">Q：为什么运行抓包工具，报错无法找到指定DLL库文件Sunny.DLL中的输出命令"xxxxxx"？</h></strong> </a></header>
 <div class="content"><h3></h3><p>答：你运行目录中的Sunny.DLL文件可能不是最新,你最新的工具或模块不兼容，下载最新的DLL/工具/模块,即可解决！ </p></div> 
 
+<header id="header"><a class="logo"><strong> <h style="color: red;">Q：为什么你网站老是打不开？</h></strong> </a></header>
+<div class="content"><h3></h3><p>答：因为成本原因，网站解析再GitHub,虽然做了加速,目标地区可能偶尔打不开,是正常的 </p><p><a target="_blank" href="https://esunny.vip">https://esunny.vip</a> </p><p><a target="_blank" href="https://www.esunny.vip">https://www.esunny.vip</a> </p><p><a target="_blank" href="https://github.esunny.vip">https://github.esunny.vip</a> </p><p> 你可以都尝试一下，若是都打不开，建议换个网络环境访问！</p></div> 
+
 </div>
 
 </div>

@@ -1,0 +1,20 @@
+<div id="main">
+
+<div class="inner">
+
+
+<header id="headerH"><a class="logo"><strong> <h style="color: red;">Q：为什么使用进程代理会断网？</h></strong> </a></header>
+<div class="content"><h3></h3><p>
+答：因为目标进程可能已经建立了TCP连接,若是不对目标进程进行断网一次，将无法捕获到数据,解决方案是先开启工具,加载驱动后,添加目标进程名,再运行目标软件即可！
+</p></div> 
+<header id="header"><a class="logo"><strong> <h style="color: red;">Q：为什么使用代码安装证书,会提示失败？</h></strong> </a></header>
+<div class="content"><h3></h3><p>答：你可能没有管理员权限，你可以尝试编译出来,使用管理员权限运行,进行尝试！ </p></div> 
+<header id="header"><a class="logo"><strong> <h style="color: red;">Q：为什么加载驱动失败、或使用代码加载驱动失败？</h></strong> </a></header>
+<div class="content"><h3></h3><p>答：你可能没有管理员权限，你可以尝试编译出来,使用管理员权限运行,进行尝试！ </p></div> 
+
+<header id="header"><a class="logo"><strong> <h style="color: red;">Q：为什么运行抓包工具，报错无法找到指定DLL库文件Sunny.DLL中的输出命令"xxxxxx"？</h></strong> </a></header>
+<div class="content"><h3></h3><p>答：你运行目录中的Sunny.DLL文件可能不是最新,你最新的工具或模块不兼容，下载最新的DLL/工具/模块,即可解决！ </p></div> 
+
+</div>
+
+</div>

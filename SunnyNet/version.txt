@@ -1,3 +1,4 @@
+2023-09-08----https://wwxa.lanzouj.com/b0cid04mf|22v8----抓包工具修复：|1.修复UDP当前选中的接收数据无法复制问题|2.修复ESC关闭程序问题|3.新增编辑框增加右键菜单【复制选中文本】|4.新增自动更新选项|DLL修复：|1.取消UPX压缩（UPX压缩可能导致程序运行缓慢）|2.设置、取消IE代理始终返回 false|3.修复上次更新限制tls1.2，而某些网站必须使用tls1.3的问题
 2023-09-01----https://wwxa.lanzouc.com/b0cic8fxe|46ca----1.抓包工具修复：上次更新引起的WS主动发送失效问题|2.DLL修复：限制https请求的TLS最大版本1.2,因为TLS1.3可能存在算法不支持|3.DLL修复：修复POST请求可能存在丢失Body的问题|4.DLL修复：修复载入P12证书,密码正确也提示失败的问题|5.C#示例修复一处可能引起闪退的问题
 2023-08-17----https://wwxa.lanzouc.com/b0ci5gt4f|dmtb----1.DLL.修复TCP首次发送数据时候，可能无法关闭主动TCP连接，无法主动向客户端、服务器发送数据的BUG|2.DLL.ws主动发送数据参数改为由MessageId改为唯一ID  <a style="color: red;">【需更新模块，DLL，示例代码】</a>|3.DLL.新增ws主动与服务器断开连接|4.DLL.修复1处可能识别http请求HOST错误的代码|5.抓包工具.新增主动断开TCP,Websocket
 2023-08-15----https://wwxa.lanzouk.com/b0ci4ac9g|atr1----1.DLL新增一个获取DLL版本的命令|2.示例代码更新,使用DLL命令获取DLL版本|3.抓包工具修复删除信息时,可能闪退问题|4.抓包工具修复一些小问题！

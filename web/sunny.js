@@ -343,7 +343,12 @@ sendGetRequest("./SunnyNet/document/list.txt", function (code, result) {
     if (List.length != 3) {
       continue;
     }
-    template += `<li><a href="javascript:Loaddocument('./SunnyNet/document/','` + List[2] + `','`+List[1]+`')">` + List[0] + `</a></li>`;
+    if (List[0]=="常见问题"){
+      template += `<li><a href="javascript:Loaddocument('./SunnyNet/document/','` + List[2] + `','`+List[1]+`')"><h style="color: red;">` + List[0] + `</h></a></li>`;
+    }else{
+      template += `<li><a href="javascript:Loaddocument('./SunnyNet/document/','` + List[2] + `','`+List[1]+`')">` + List[0] + `</a></li>`;
+    }
+  
   }
   document.getElementById('SunnyNetDoc').innerHTML = template;
 });

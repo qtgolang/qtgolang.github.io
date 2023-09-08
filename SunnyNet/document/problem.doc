@@ -9,8 +9,9 @@
 </p></div> 
 <header id="header"><a class="logo"><strong> <h style="color: red;">Q：为什么使用代码安装证书,会提示失败？</h></strong> </a></header>
 <div class="content"><h3></h3><p>答：你可能没有管理员权限，你可以尝试编译出来,使用管理员权限运行,进行尝试！ </p></div> 
+
 <header id="header"><a class="logo"><strong> <h style="color: red;">Q：为什么加载驱动失败、或使用代码加载驱动失败？</h></strong> </a></header>
-<div class="content"><h3></h3><p>答：你可能没有管理员权限，你可以尝试编译出来,使用管理员权限运行,进行尝试！ </p></div> 
+<div class="content"><h3></h3><p>答：请先确保你没有重复运行软件,因为驱动只允许一个软件加载。其次,你可能没有管理员权限，你可以尝试编译出来,使用管理员权限运行,进行尝试！ </p></div> 
 
 <header id="header"><a class="logo"><strong> <h style="color: red;">Q：为什么运行抓包工具，报错无法找到指定DLL库文件Sunny.DLL中的输出命令"xxxxxx"？</h></strong> </a></header>
 <div class="content"><h3></h3><p>答：你运行目录中的Sunny.DLL文件可能不是最新,你最新的工具或模块不兼容，下载最新的DLL/工具/模块,即可解决！ </p></div> 

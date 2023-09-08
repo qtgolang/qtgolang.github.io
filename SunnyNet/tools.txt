@@ -1,4 +1,4 @@
-2023-09-08----https://wwxa.lanzouj.com/i4H3l17oq7ne----1.修复UDP当前选中的接收数据无法复制问题|2.修复ESC关闭程序问题|3.新增编辑框增加右键菜单【复制选中文本】|4.新增自动更新选项
+2023-09-08----https://wwxa.lanzouj.com/izoCR17pz2gh----1.修复UDP当前选中的接收数据无法复制问题|2.修复ESC关闭程序问题|3.新增编辑框增加右键菜单【复制选中文本】|4.修复使用TCP客户端可能闪退的问题|5.新增自动更新选项
 2023-09-01----https://wwxa.lanzouc.com/iarPN175c0of----1.修复上次更新引起的WS主动发送失效问题
 2023-08-17----https://wwxa.lanzouc.com/i6R0L15ob82h----1.抓包工具新增主动断开TCP,Websocket
 2023-08-15----https://wwxa.lanzouk.com/ixDpy15h9ykh----1.抓包工具修复删除信息时,可能闪退的问题|2.其他一些小问题

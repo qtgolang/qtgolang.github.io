@@ -167,7 +167,7 @@ function SunntNet() {
       }
       let UpdateInfo = List[2].split("|");
       if (template == "") {
-        template = "<div class=\"inner\"><header id=\"headerH\"><a class=\"logo\"><strong>Sunny网络中间件</strong> 版本 " + List[0] + "</a></header><div class=\"content\"><h3></h3><p>下载地址：<a  target=\"_blank\" href=\"" + Download[0] + "\">" + Download[0] + "</a></p><p>下载密码：" + Download[1] + "</p><p><a target=\"_blank\" href=\"https://github.com/qtgolang/SunnyNet\">GitHub 地址</a> ->> 可以帮我点点小星星</p><h3 style=\"color: red;\">更新说明</h3>";
+        template = "<div class=\"inner\"><header id=\"headerH\"><a class=\"logo\"><strong>Sunny网络中间件</strong> 版本 " + List[0] + "</a></header><div class=\"content\"><h3></h3><p>下载地址：<a  target=\"_blank\" href=\"" + Download[0] + "\">" + Download[0] + "</a></p><p>下载密码：" + Download[1] + "</p><p><a target=\"_blank\" href=\"https://github.com/qtgolang/SunnyNet\">GitHub 地址</a> ->> 可以帮我点点小星星</p><p><a target=\"_blank\" href=\"https://gitee.com/qtr/SunnyNet\">Gitee 地址</a> ->> 可以帮我点点小星星</p><h3 style=\"color: red;\">更新说明</h3>";
         for (let n = 0; n < UpdateInfo.length; n++) {
           template += "<p>" + UpdateInfo[n] + "</p>";
         }

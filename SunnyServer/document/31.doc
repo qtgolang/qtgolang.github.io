@@ -31,11 +31,9 @@ DeviceMd5 ＝ json.取值 (“md5”)
  
 .判断开始 (DeviceMd5 ＝ “20a17778f0859f894a1cc2a04c679d88”)
     调试输出 (“易语言 网页访问对象 请求 不通过”)
-    ' 认证不通过 '将会直接断开链接
     返回 (假)
 .判断 (DeviceMd5 ＝ “717d37cbf52a5589abfae663bcce2ceb”)
     调试输出 (“Python requests 库请求 不通过”)
-    ' 认证不通过 '将会直接断开链接
     返回 (假)
 .判断 (DeviceMd5 ＝ “41c1a0a0b7fea468f579fe3100c6d48a”)
     调试输出 (“Firefox 浏览器 认证通过”)
@@ -90,7 +88,6 @@ DeviceMd5 ＝ json.取值 (“md5”)
 .判断结束
 
 
-' 认证不通过 '将会直接断开链接
 返回 (假)
 
 .子程序 路由函数_index

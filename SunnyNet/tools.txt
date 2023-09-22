@@ -1,3 +1,4 @@
+2023-09-22----https://wwxa.lanzouj.com/idLh919ef9yd----1.抓包工具修改自动更新问题|2.DLL修改GZIP解压缩可能失败问题
 2023-09-15----https://wwxa.lanzouj.com/iRbmI18kjxuh----1.修复多选右键删除问题|2.修复将保存的UDP数据，导入后可能丢失一个字节。UDP接收数据可能无法显示|3.添加启动页
 2023-09-08----https://wwxa.lanzouj.com/izoCR17pz2gh----1.修复UDP当前选中的接收数据无法复制问题|2.修复ESC关闭程序问题|3.新增编辑框增加右键菜单【复制选中文本】|4.修复使用TCP客户端可能闪退的问题|5.新增自动更新选项
 2023-09-01----https://wwxa.lanzouc.com/iarPN175c0of----1.修复上次更新引起的WS主动发送失效问题

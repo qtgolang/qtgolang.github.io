@@ -1,3 +1,4 @@
+2023-10-13----https://wwxa.lanzouj.com/b0cihmbab|djmf----1.修复HTTP返回协议头有乱码无法查看的响应的问题|2.修复某些请求响应缓慢问题
 2023-09-30----https://wwxa.lanzouj.com/b0cifuvtg|g8zh----1.抓包工具内置一键安装证书APK|2.DLL修复WS客户端客户闪退问题|3.DLL修复1处HTTP请求客户无Body问题
 2023-09-22----https://wwxa.lanzouj.com/b0ciemzeb|fhgf----1.抓包工具修改自动更新问题|2.DLL修改GZIP解压缩可能失败问题
 2023-09-15----https://wwxa.lanzouj.com/b0cidv9hg|8j5e----抓包工具修复：|1.修复多选右键删除问题|2.修复将保存的UDP数据，导入后可能丢失一个字节。UDP接收数据可能无法显示|DLL修复：|1.修复特定情况下POST不全

@@ -1,3 +1,4 @@
+2023-10-13----https://wwxa.lanzouj.com/iFq6F1bq99he----1.修复HTTP返回协议头有乱码无法查看的响应的问题|2.修复某些请求响应缓慢问题
 2023-09-30----https://wwxa.lanzouj.com/ifgM01a999dc----1.内置一键安装证书APK
 2023-09-22----https://wwxa.lanzouj.com/idLh919ef9yd----1.抓包工具修改自动更新问题|2.DLL修改GZIP解压缩可能失败问题
 2023-09-15----https://wwxa.lanzouj.com/iRbmI18kjxuh----1.修复多选右键删除问题|2.修复将保存的UDP数据，导入后可能丢失一个字节。UDP接收数据可能无法显示|3.添加启动页

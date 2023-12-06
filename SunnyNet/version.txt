@@ -1,3 +1,4 @@
+2023-12-06----https://wwxa.lanzouj.com/b0cineluj|ahju----1.新增一个函数(设置强制走TCP自定义规则)
 2023-11-12----https://wwxa.lanzouj.com/b0cil1bhg|43pn----1.新增一个函数(取出身份验证的S5账号)|2.TCP客户端新增超时设置
 2023-10-13----https://wwxa.lanzouj.com/b0cihmbab|djmf----1.修复HTTP返回协议头有乱码无法查看的响应的问题|2.修复某些请求响应缓慢问题
 2023-09-30----https://wwxa.lanzouj.com/b0cifuvtg|g8zh----1.抓包工具内置一键安装证书APK|2.DLL修复WS客户端客户闪退问题|3.DLL修复1处HTTP请求客户无Body问题

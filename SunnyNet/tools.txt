@@ -1,3 +1,4 @@
+2023-12-15----https://wwxa.lanzouj.com/iLHGn1hz7fgh----WSS客户端修复一个BUG并且连接命令添加超时参数
 2023-12-14----https://wwxa.lanzouj.com/b0cior9kb----1.Windows新版本->密码:2brf
 2023-12-14----https://wwxa.lanzouj.com/b0ciopv1c----1.MacOs版本->密码:2oxf
 2023-12-06----https://wwxa.lanzouj.com/ij3ED1htzaxg----1.新增一个函数(设置强制走TCP自定义规则)

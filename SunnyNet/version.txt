@@ -1,3 +1,4 @@
+2024-01-20----https://wwxa.lanzouj.com/b0ciumt3a|2z9a----1.修改一个BUG（POST数据若是：Transfer-Encoding: chunked 方式提交），可能会失败
 2023-12-15----https://wwxa.lanzouj.com/b0ciowryd|660p----1.WSS客户端修复一个BUG并且连接命令添加超时参数
 2023-12-06----https://wwxa.lanzouj.com/b0cineluj|ahju----1.新增一个函数(设置强制走TCP自定义规则)
 2023-11-12----https://wwxa.lanzouj.com/b0cil1bhg|43pn----1.新增一个函数(取出身份验证的S5账号)|2.TCP客户端新增超时设置

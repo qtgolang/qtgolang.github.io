@@ -1,7 +1,7 @@
 const _main_Pages = `
   <div class="inner">
       <header id="headerH"> 
-          <a class="logo"><strong style="color: red;">服务器维护不起了，只能用这种低成本的网站了</strong></br>网站域名有:(访问不了时,可切换尝试)</br>https://esunny.vip</br>https://www.esunny.vip</br>https://github.esunny.vip</br></br></br></br><h4 style="color: red;">重要提示：</br>如果使用谷歌浏览器下载文件，提示危险</br>请打开设置->隐私和安全->安全->不保护</br>然后重新下载即可，不清楚是什么原因</br>将文件上传到微云</br>使用谷歌浏览器下载，就不会提示危险！</br>但是微云下载太慢，还是蓝奏吧！</h4></br></br></br></br>Sunny网络中间件 <strong>（完整免费开源-功能介绍）QQ群:751406884 二群：545120699</strong>
+          <a class="logo"><strong style="color: red;">服务器维护不起了，只能用这种低成本的网站了</strong></br>网站域名有:(访问不了时,可切换尝试)</br>https://esunny.vip</br>https://www.esunny.vip</br>https://github.esunny.vip</br></br></br></br><h4 style="color: red;">重要提示：</br>如果使用谷歌浏览器下载文件，提示危险</br>请打开设置->隐私和安全->安全->不保护</br>然后重新下载即可，不清楚是什么原因</br>将文件上传到微云</br>使用谷歌浏览器下载，就不会提示危险！</br>但是微云下载太慢，还是蓝奏吧！</h4></br></br></br></br>Sunny网络中间件 <strong>（完整免费开源-功能介绍）QQ群:751406884 二群：545120699 三群：170902713</strong>
           </a>
       </header>
       <div class="content">
@@ -286,7 +286,7 @@ function SunntNetHook() {
 }
 function ds() {
   //点击菜单->打赏
-  var template = "<div class=\"inner\"><header id=\"headerH\"><a class=\"logo\"><strong>Sunny网络中间件：751406884</strong></a></header><header id=\"header\"><a class=\"logo\"><strong>Sunny网络中间件(二群)：545120699</strong></a></header>";
+  var template = "<div class=\"inner\"><header id=\"headerH\"><a class=\"logo\"><strong>Sunny网络中间件(一群)：751406884</strong></a></header><header id=\"header\"><a class=\"logo\"><strong>Sunny网络中间件(二群)：545120699</strong></a></header><header id=\"header\"><a class=\"logo\"><strong>Sunny网络中间件(三群)：170902713</strong></a></header><header id=\"header\"><a class=\"logo\" href='https://pd.qq.com/s/cgzgyjj6u' ><strong> 点击加入《QQ频道》</strong></a></header>";
   template += "<header id=\"header\"><a class=\"logo\"><strong>Sunny服务器套件 - QQ群：616787804</strong></a></header>";
   template += "<img src=\"web/assets/img/zz.jpg\"></img>";
   template += "</div>";

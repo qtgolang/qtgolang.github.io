@@ -1,3 +1,4 @@
+2024-08-27----https://wwxa.lanzouj.com/b02p3w6txc|4wzx----1.修复驱动抓包忽略程序自己发送给程序自己的数据包【可能导致异常，非程序本身无法连接，所以忽略这种类型】
 2024-06-04----https://wwf.lanzouj.com/b02p3o56wj|4rus----1.新增tls指纹随机|2.新增禁用TCP|3.新增zstd压缩|4.识别 websocket 可能错误|5.修复特定情况下识别URL错误
 2024-04-28----https://wwf.lanzouj.com/b02p3k3o0j|empl----1.修复环路造成CPU100%的严重BUG|2.以及其他一些小问题
 2024-03-09----https://wwf.lanzouj.com/b0cj3pgqh|ca5l----1.修复BUG,特定情况下响应协议头多出一个Content-Length，可能会失败|2.修复BUG,特定情况下可能出现环路

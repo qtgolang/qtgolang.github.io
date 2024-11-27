@@ -288,7 +288,9 @@ function ds() {
   //点击菜单->打赏
   var template = "<div class=\"inner\"><header id=\"headerH\"><a class=\"logo\"><strong>Sunny网络中间件(一群)：751406884</strong></a></header><header id=\"header\"><a class=\"logo\"><strong>Sunny网络中间件(二群)：545120699</strong></a></header><header id=\"header\"><a class=\"logo\"><strong>Sunny网络中间件(三群)：170902713</strong></a></header><header id=\"header\"><a class=\"logo\" href='https://pd.qq.com/s/cgzgyjj6u' ><strong> 点击加入《QQ频道》</strong></a></header>";
   template += "<header id=\"header\"><a class=\"logo\"><strong>Sunny服务器套件 - QQ群：616787804</strong></a></header>";
-  template += "<img src=\"web/assets/img/zz.jpg\"></img>";
+  template += "<div style=' display: flex; justify-content: space-around; align-items: center;'><img src=\"web/assets/img/1.png\" style='max-width: 30%;'></img>";
+  template += "<img src=\"web/assets/img/2.png\" style='max-width: 30%;'></img>";
+  template += "<img src=\"web/assets/img/3.png\" style='max-width: 30%;'></img></div>";
   template += "</div>";
   document.getElementById('main').innerHTML = template;
 }

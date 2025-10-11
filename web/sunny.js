@@ -1,7 +1,7 @@
 const _main_Pages = `
   <div class="inner">
       <header id="headerH"> 
-          <a class="logo"><strong style="color: red;">服务器维护不起了，只能用这种低成本的网站了</strong></br>网站域名有:(访问不了时,可切换尝试)</br>https://esunny.vip</br>https://www.esunny.vip</br>https://github.esunny.vip</br></br></br></br><h4 style="color: red;">重要提示：</br>如果使用谷歌浏览器下载文件，提示危险</br>请打开设置->隐私和安全->安全->不保护</br>然后重新下载即可，不清楚是什么原因</br>将文件上传到微云</br>使用谷歌浏览器下载，就不会提示危险！</br>但是微云下载太慢，还是蓝奏吧！</h4></br></br></br></br>Sunny网络中间件 <strong>（完整免费开源-功能介绍）QQ群:751406884 二群：545120699 三群：170902713</strong>
+          <a class="logo"><strong style="color: red;">服务器维护不起了，只能用这种低成本的网站了</strong></br>网站域名有:(访问不了时,可切换尝试)</br>https://esunny.vip</br>https://www.esunny.vip</br>https://github.esunny.vip</br></br></br></br><h4 style="color: red;">重要提示：</br>如果使用谷歌浏览器下载文件，提示危险</br>请打开设置->隐私和安全->安全->不保护</br>然后重新下载即可，不清楚是什么原因</br>将文件上传到微云</br>使用谷歌浏览器下载，就不会提示危险！</br>但是微云下载太慢，还是蓝奏吧！</h4></br></br></br></br>Sunny网络中间件 <strong>（完整免费开源-功能介绍）QQ群:751406884 二群：545120699 三群：170902713 四群：1070797457</strong>
           </a>
       </header>
       <div class="content">
@@ -13,22 +13,7 @@ const _main_Pages = `
           <p>支持 对 HTTP/HTTPS/WS/WSS/TCP/TLS-TCP 链接重定向</p>
           <p>支持 gzip, deflate, br 解码</p>
           <p>支持 WS/WSS/TCP/TLS-TCP/UDP 主动发送数据</p>
-      </div>
-      <header id="header">
-          <a class="logo"> Sunny服务器套件 <strong>（完整免费开源-功能介绍）QQ群:616787804</strong>
-          </a>
-      </header>
-      <div class="content">
-          <p>Suuny 服务器套件是基于Golang Gin 移植而来 拥有跨平台的特性</p>
-          <p>Go 性能极其地快。其性能与 C 或 C++ 相似。 Go 一般比 Python 要快 30 倍左右</p>
-          <p>Go最大的特色，天生的支持并发，可以充分的利用多核</p>
-          <p>将Golang Gin 框架移植到易语言，乃至其他语言，都是不错的选择。</p>
-          <h3>SDK功能</h3>
-          <p>[Myqsl] [TCP/TLS-TCP服务端] [TCP/TLS-TCP客户端] [WS/WSS客户端]</p>
-          <p>[存取键值表] [队列] [GoLock] [Websocket] [Session] [Redis] [Sqlite3]</p>
-          <p>[日志功能] [创建生成二维码] [创建生成语音验证码] [创建生成图形中文验证码]</p>
-          <p>[创建生成图形文本验证码] [创建生成图形算数验证码]</p>
-      </div>
+      </div> 
   </div>
   `;
 
@@ -286,8 +271,7 @@ function SunntNetHook() {
 }
 function ds() {
   //点击菜单->打赏
-  var template = "<div class=\"inner\"><header id=\"headerH\"><a class=\"logo\"><strong>Sunny网络中间件(一群)：751406884</strong></a></header><header id=\"header\"><a class=\"logo\"><strong>Sunny网络中间件(二群)：545120699</strong></a></header><header id=\"header\"><a class=\"logo\"><strong>Sunny网络中间件(三群)：170902713</strong></a></header><header id=\"header\"><a class=\"logo\" href='https://pd.qq.com/s/cgzgyjj6u' ><strong> 点击加入《QQ频道》</strong></a></header>";
-  template += "<header id=\"header\"><a class=\"logo\"><strong>Sunny服务器套件 - QQ群：616787804</strong></a></header>";
+  var template = "<div class=\"inner\"><header id=\"headerH\"><a class=\"logo\"><strong>Sunny网络中间件(一群)：751406884</strong></a></header><header id=\"header\"><a class=\"logo\"><strong>Sunny网络中间件(二群)：545120699</strong></a></header><header id=\"header\"><a class=\"logo\"><strong>Sunny网络中间件(三群)：170902713</strong></a></header><header id=\"header\"><a class=\"logo\"><strong>Sunny网络中间件(四群)：1070797457</strong></a></header><header id=\"header\"><a class=\"logo\" href='https://pd.qq.com/s/cgzgyjj6u' ><strong> 点击加入《QQ频道》</strong></a></header>"; 
   template += "<div style=' display: flex; justify-content: space-around; align-items: center;'><img src=\"web/assets/img/1.png\" style='max-width: 30%;'></img>";
   template += "<img src=\"web/assets/img/2.png\" style='max-width: 30%;'></img>";
   template += "<img src=\"web/assets/img/3.png\" style='max-width: 30%;'></img></div>";

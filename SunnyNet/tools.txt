@@ -1,0 +1,25 @@
+2025-12-25----https://wwbva.lanzouu.com/iQL3V3eg85da----更新较多,见更新日志|https://wwbva.lanzouu.com/iRg863eg855c||ps(*)大更新，和之前的示例，模块，等 不兼容，请更新为相匹配的SDK，示例代码、模块
+2024-08-27----https://wwxa.lanzouj.com/ieIVE28jk3fi----1.修复驱动抓包忽略程序自己发送给程序自己的数据包【可能导致异常，非程序本身无法连接，所以忽略这种类型】
+2024-06-04----https://wwxa.lanzouj.com/b0cior9kb----1.Windows新版本->密码:2brf
+2024-06-04----https://wwxa.lanzouj.com/b0ciopv1c----1.MacOs版本->密码:2oxf
+2024-06-04----https://wwf.lanzouj.com/iSUm720rxatc----1.新增tls指纹随机|2.新增禁用TCP|3.新增zstd压缩|4.识别 websocket 可能错误|5.修复特定情况下识别URL错误
+2024-04-28----https://wwf.lanzouj.com/iN5tJ1wsu39e----1.修复环路造成CPU100%的严重BUG|2.以及其他一些小问题
+2024-03-09----https://wwf.lanzouj.com/iwDzZ1qr936d----1.修复BUG,特定情况下响应协议头多出一个Content-Length，可能会失败|2.修复BUG,特定情况下可能出现环路
+2024-01-20----https://wwxa.lanzouj.com/iAMIG1m41toh----1.修改一个BUG（POST数据若是：Transfer-Encoding: chunked 方式提交），可能会失败
+2023-12-15----https://wwxa.lanzouj.com/iLHGn1hz7fgh----WSS客户端修复一个BUG并且连接命令添加超时参数
+2023-12-06----https://wwxa.lanzouj.com/ij3ED1htzaxg----1.新增一个函数(设置强制走TCP自定义规则)
+2023-09-30----https://wwxa.lanzouj.com/ifgM01a999dc----1.内置一键安装证书APK
+2023-09-22----https://wwxa.lanzouj.com/idLh919ef9yd----1.抓包工具修改自动更新问题|2.DLL修改GZIP解压缩可能失败问题
+2023-09-15----https://wwxa.lanzouj.com/iRbmI18kjxuh----1.修复多选右键删除问题|2.修复将保存的UDP数据，导入后可能丢失一个字节。UDP接收数据可能无法显示|3.添加启动页
+2023-09-08----https://wwxa.lanzouj.com/izoCR17pz2gh----1.修复UDP当前选中的接收数据无法复制问题|2.修复ESC关闭程序问题|3.新增编辑框增加右键菜单【复制选中文本】|4.修复使用TCP客户端可能闪退的问题|5.新增自动更新选项
+2023-09-01----https://wwxa.lanzouc.com/iarPN175c0of----1.修复上次更新引起的WS主动发送失效问题
+2023-08-17----https://wwxa.lanzouc.com/i6R0L15ob82h----1.抓包工具新增主动断开TCP,Websocket
+2023-08-15----https://wwxa.lanzouk.com/ixDpy15h9ykh----1.抓包工具修复删除信息时,可能闪退的问题|2.其他一些小问题
+2023-08-05----https://wwxa.lanzouk.com/icdl314he9sj----1.修复一处可能导致内存溢出的问题，<a style="color: red;">需更新模块，DLL，示例代码（否则内存不会释放）</a>|2.新增，电脑本机设置代理（例如设置IE代理），识别请求由哪个进程发起|3.新增禁用UDP选项,新增过滤PID,进程名|5.修复UDP抓不到返回数据问题.(目前问题,若UDP服务器(A)在本机，UDP客户端(B)也在本机，B首次向A发送数据，需要发送2次，A才能收到，NF驱动问题，暂无解决方案)
+2023-07-22----https://wwxa.lanzouk.com/iyJ71135nkad----1.DLL->修复PB解析的一处错误|2.DLL->修复UDP拦截的BUG|3.DLL->优化加载驱动后目标进程已经连接的TCP没有断开无法抓包问题|4.抓包工具->修复1处BUG
+2023-06-19----https://wwxa.lanzouk.com/iVdnW0zopafa----修复服务器返回协议头大小写问题|新增支持设置CER，PEM证书进行请求,未具体测试(之前只能设置P12证书)|修复列表区按键盘上下选择问题|优化颜色标记加粗字体|优化批量重发可能闪退|优化过滤显示没有数据的TCP请求
+2023-06-16----https://wwxa.lanzouk.com/i0ps40zaziti----新增UDP，优化设置界面.等...|需更新DLL、模块、主程序
+2023-06-05----https://wwxa.lanzouk.com/i8OJL0yaxo4b----修正驱动文件描述|优化禁止浏览器缓存功能|优化复制文本|优化TCP、ws新增停止插入[发送、接收]
+2023-05-27----https://wwxa.lanzouk.com/iA3nK0xdvyvi----修复搜索BUG
+2023-05-12----https://wwxa.lanzouy.com/iA3Ck0vhf8he----修复搜索BUG
+ 

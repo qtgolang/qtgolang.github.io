@@ -1,0 +1,48 @@
+.版本 2
+.支持库 spec
+
+.子程序 客户端使用双向认证
+
+' Android 使用双向认证(okhttp3)请参考
+' https://note.youdao.com/noteshare?id=87e1a7292c52e0659c5b48e527cf065c
+' PS ： 注意 Android 使用双向认证 目前有问题。
+' 雷电模拟器测试通过，其他模拟器和手机测试不通过
+
+
+' Java 使用双向认证(okhttp3)请参考
+' https://note.youdao.com/noteshare?id=4529ed24d7f98f302137d4a313bf3b0b
+
+.子程序 __启动窗口_创建完毕
+.局部变量 CA路径, 文本型
+.局部变量 Key路径, 文本型
+.局部变量 证书, Sunny证书管理器
+
+
+CA路径 ＝ “C:\Users\qinka\Desktop\sa\server.crt”
+Key路径 ＝ “C:\Users\qinka\Desktop\sa\server.key”
+证书._载入X509KeyPair (CA路径, Key路径)
+证书.添加客户端信任证书_文件 (“C:\Users\qinka\Desktop\sa\ca.pem”)
+证书.设置客户端身份验证模式 (#SSL_ClientAuth_RequireAndVerifyClientCert)
+' #SSL_ClientAuth_NoClientCert,                    表示在握手过程中不应该请求客户端证书，并且如果发送了任何证书，它们将不会被验证。
+' #SSL_ClientAuth_RequestClientCert                表示应该在握手过程中请求客户端证书，但不要求客户端发送任何证书。
+' #SSL_ClientAuth_RequireAnyClientCert             表示在握手过程中应该请求客户端证书，并且客户端至少需要发送一个证书，但该证书不需要有效。
+' #SSL_ClientAuth_VerifyClientCertIfGiven          表示应该在握手过程中请求客户端证书，但不要求客户端发送证书。如果客户端发送了一个证书，它就需要是有效的。
+' #SSL_ClientAuth_RequireAndVerifyClientCert       表示握手时需要请求客户端证书，客户端至少需要发送一个有效的证书。
+
+
+Sunny服务器套件.添加GET路由 (“/index”, 到整数 (&index))
+.如果 (Sunny服务器套件.启动HTTPS服务器 (“:8806”, 证书))
+    调试输出 (“服务器启动成功”)
+.否则
+    信息框 (Sunny服务器套件.获取运行时的错误信息 (), #错误图标, “启动失败”, )
+.如果结束
+
+
+.子程序 index
+.参数 Context
+.局部变量 SUNNY, Sunny
+.局部变量 请求, Sunny请求
+.局部变量 响应, Sunny响应
+
+SUNNY ＝ 取回sunny对象 (Context, 请求, 响应)
+响应.写出文本 (200, “这是 GET 请求的index路由返回的数据”)

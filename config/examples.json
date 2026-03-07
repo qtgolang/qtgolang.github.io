@@ -1,0 +1,116 @@
+{
+  "examples": [
+    {
+      "id": "sydl",
+      "name": "设置上游代理",
+      "description": "设置上游代理(仅支持Socket5和HTTP代理)。",
+      "languages": {
+        "C": ["main.cpp"],
+        "CSharp": ["Program.cs","TestSunnyNetCallback.cs"],
+        "Go": ["main.go"],
+        "Java": ["Main.java","TestCallback_SunnyNet.java"],
+        "Android": ["MainActivity.java","TestCallback_SunnyNet.java"],
+        "Python": ["main.py"],
+        "易语言": ["设置上游代理.e"]
+      }
+    },
+    {
+      "id": "start_http_callback",
+      "name": "HTTP回调示例",
+      "description": "[模板]HTTP回调函数示例。",
+      "languages": {
+        "C": ["main.cpp"],
+        "CSharp": ["Program.cs", "TestSunnyNetCallback.cs"],
+        "Go": ["main.go"],
+        "Java": ["Main.java", "TestCallback_SunnyNet.java"],
+        "Android": ["MainActivity.java", "TestCallback_SunnyNet.java"],
+        "Python": ["main.py"],
+        "易语言": ["HTTP回调示例.e"]
+      }
+    },
+    {
+      "id": "start_ws_callback",
+      "name": "WebSocket回调示例",
+      "description": "[模板]WebSocket回调函数示例。",
+      "languages": {
+        "C": ["main.cpp"],
+        "CSharp": ["Program.cs", "TestSunnyNetCallback.cs"],
+        "Go": ["main.go"],
+        "Java": ["Main.java", "TestCallback_SunnyNet.java"],
+        "Android": ["MainActivity.java", "TestCallback_SunnyNet.java"],
+        "Python": ["main.py"],
+        "易语言": ["WebSocket回调示例.e"]
+      }
+    },
+    {
+      "id": "start_tcp_callback",
+      "name": "TCP回调示例",
+      "description": "[模板]TCP回调函数示例。",
+      "languages": {
+        "C": ["main.cpp"],
+        "CSharp": ["Program.cs", "TestSunnyNetCallback.cs"],
+        "Go": ["main.go"],
+        "Java": ["Main.java", "TestCallback_SunnyNet.java"],
+        "Android": ["MainActivity.java", "TestCallback_SunnyNet.java"],
+        "Python": ["main.py"],
+        "易语言": ["TCP回调示例.e"]
+      }
+    },
+    {
+      "id": "start_UDP_callback",
+      "name": "UDP回调示例",
+      "description": "[模板]UDP回调函数示例。",
+      "languages": {
+        "C": ["main.cpp"],
+        "CSharp": ["Program.cs", "TestSunnyNetCallback.cs"],
+        "Go": ["main.go"],
+        "Java": ["Main.java", "TestCallback_SunnyNet.java"],
+        "Android": ["MainActivity.java", "TestCallback_SunnyNet.java"],
+        "Python": ["main.py"],
+        "易语言": ["UDP回调示例.e"]
+      }
+    },
+    {
+      "id": "start_http_p",
+      "name": "指定进程",
+      "description": "(简单示例)按进程名或进程PID指定抓包目标，需在启动后加载驱动。",
+      "languages": {
+        "C": ["main.cpp"],
+        "CSharp": ["Program.cs", "TestSunnyNetCallback.cs"],
+        "Go": ["main.go"],
+        "Java": ["Main.java", "TestCallback_SunnyNet.java"],
+        "Android": ["MainActivity.java", "TestCallback_SunnyNet.java"],
+        "Python": ["main.py"],
+        "易语言": ["指定进程名.e","指定PID.e"]
+      }
+    },
+    {
+      "id": "start_tcp_must",
+      "name": "客户端强制走TCP",
+      "description": "(简单示例)抓TCP-客户端强制走TCP(客户端需要设置S5代理有效)。",
+      "languages": {
+        "C": ["main.cpp"],
+        "CSharp": ["Program.cs", "TestSunnyNetCallback.cs"],
+        "Go": ["main.go"],
+        "Java": ["Main.java", "TestCallback_SunnyNet.java"],
+        "Android": ["MainActivity.java", "TestCallback_SunnyNet.java"],
+        "Python": ["main.py"],
+        "易语言": ["客户端强制走TCP.e"]
+      }
+    },
+    {
+      "id": "cer",
+      "name": "导入自己的证书",
+      "description": "导入自己的证书。",
+      "languages": {
+        "C": ["main.cpp"],
+        "CSharp": ["Program.cs", "TestSunnyNetCallback.cs"],
+        "Go": ["main.go"],
+        "Java": ["Main.java", "TestCallback_SunnyNet.java"],
+        "Android": ["MainActivity.java", "TestCallback_SunnyNet.java"],
+        "Python": ["main.py"],
+        "易语言": ["导入自己的证书.e"]
+      }
+    }
+  ]
+}

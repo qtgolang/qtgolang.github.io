@@ -1,0 +1,9 @@
+{
+  "title": "打赏开发者",
+  "description": "如果本项目对您有帮助，欢迎打赏支持继续开发。",
+  "methods": [
+    { "name": "微信", "description": "扫码打赏", "imageUrl": "/pay/wx.jpg" },
+    { "name": "支付宝", "description": "扫码打赏", "imageUrl": "/pay/zfb.jpg" },
+    { "name": "QQ", "description": "扫码打赏", "imageUrl": "/pay/qq.jpg" }
+  ]
+}

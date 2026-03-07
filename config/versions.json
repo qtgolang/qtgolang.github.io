@@ -1,0 +1,204 @@
+{
+  "latest": {
+    "version": "2025-10-24",
+    "downloadUrl": "https://wwxa.lanzouu.com/b02p4aet8j",
+    "github": "https://github.com/qtgolang/SunnyNet",
+    "gitee": "https://gitee.com/qtr/SunnyNet",
+    "downloadPassword": "4h7r",
+    "description": "更新较多,[见更新日志(https://wwxa.lanzouu.com/iRg863eg855c)]|大更新:和之前的示例，模块，等 不兼容，请更新为相匹配的SDK，示例代码、模块"
+  },
+  "history": [
+    {
+      "version": "2024-08-27",
+      "downloadUrl": "https://wwxa.lanzouj.com/b02p3w6txc",
+      "downloadPassword": "4wzx",
+      "description": "1.修复驱动抓包忽略程序自己发送给程序自己的数据包【可能导致异常，非程序本身无法连接，所以忽略这种类型】"
+    },
+    {
+      "version": "2024-06-04",
+      "downloadUrl": "https://wwf.lanzouj.com/b02p3o56wj",
+      "downloadPassword": "4rus",
+      "description": "1.新增tls指纹随机|2.新增禁用TCP|3.新增zstd压缩|4.识别 websocket 可能错误|5.修复特定情况下识别URL错误"
+    },
+    {
+      "version": "2024-04-28",
+      "downloadUrl": "https://wwf.lanzouj.com/b02p3k3o0j",
+      "downloadPassword": "empl",
+      "description": "1.修复环路造成CPU100%的严重BUG|2.以及其他一些小问题"
+    },
+    {
+      "version": "2024-03-09",
+      "downloadUrl": "https://wwf.lanzouj.com/b0cj3pgqh",
+      "downloadPassword": "ca5l",
+      "description": "1.修复BUG,特定情况下响应协议头多出一个Content-Length，可能会失败|2.修复BUG,特定情况下可能出现环路"
+    },
+    {
+      "version": "2024-01-20",
+      "downloadUrl": "https://wwxa.lanzouj.com/b0ciumt3a",
+      "downloadPassword": "2z9a",
+      "description": "1.修改一个BUG（POST数据若是：Transfer-Encoding: chunked 方式提交），可能会失败"
+    },
+    {
+      "version": "2023-12-15",
+      "downloadUrl": "https://wwxa.lanzouj.com/b0ciowryd",
+      "downloadPassword": "660p",
+      "description": "1.WSS客户端修复一个BUG并且连接命令添加超时参数"
+    },
+    {
+      "version": "2023-12-06",
+      "downloadUrl": "https://wwxa.lanzouj.com/b0cineluj",
+      "downloadPassword": "ahju",
+      "description": "1.新增一个函数(设置强制走TCP自定义规则)"
+    },
+    {
+      "version": "2023-11-12",
+      "downloadUrl": "https://wwxa.lanzouj.com/b0cil1bhg",
+      "downloadPassword": "43pn",
+      "description": "1.新增一个函数(取出身份验证的S5账号)|2.TCP客户端新增超时设置"
+    },
+    {
+      "version": "2023-10-13",
+      "downloadUrl": "https://wwxa.lanzouj.com/b0cihmbab",
+      "downloadPassword": "djmf",
+      "description": "1.修复HTTP返回协议头有乱码无法查看的响应的问题|2.修复某些请求响应缓慢问题"
+    },
+    {
+      "version": "2023-09-30",
+      "downloadUrl": "https://wwxa.lanzouj.com/b0cifuvtg",
+      "downloadPassword": "g8zh",
+      "description": "1.抓包工具内置一键安装证书APK|2.DLL修复WS客户端客户闪退问题|3.DLL修复1处HTTP请求客户无Body问题"
+    },
+    {
+      "version": "2023-09-22",
+      "downloadUrl": "https://wwxa.lanzouj.com/b0ciemzeb",
+      "downloadPassword": "fhgf",
+      "description": "1.抓包工具修改自动更新问题|2.DLL修改GZIP解压缩可能失败问题"
+    },
+    {
+      "version": "2023-09-15",
+      "downloadUrl": "https://wwxa.lanzouj.com/b0cidv9hg",
+      "downloadPassword": "8j5e",
+      "description": "抓包工具修复：|1.修复多选右键删除问题|2.修复将保存的UDP数据，导入后可能丢失一个字节。UDP接收数据可能无法显示|DLL修复：|1.修复特定情况下POST不全"
+    },
+    {
+      "version": "2023-09-08",
+      "downloadUrl": "https://wwxa.lanzouj.com/b0cid04mf",
+      "downloadPassword": "22v8",
+      "description": "抓包工具修复：|1.修复UDP当前选中的接收数据无法复制问题|2.修复ESC关闭程序问题|3.新增编辑框增加右键菜单【复制选中文本】|4.新增自动更新选项|DLL修复：|1.取消UPX压缩（UPX压缩可能导致程序运行缓慢）|2.设置、取消IE代理始终返回 false|3.修复上次更新限制tls1.2，而某些网站必须使用tls1.3的问题"
+    },
+    {
+      "version": "2023-09-01",
+      "downloadUrl": "https://wwxa.lanzouc.com/b0cic8fxe",
+      "downloadPassword": "46ca",
+      "description": "1.抓包工具修复：上次更新引起的WS主动发送失效问题|2.DLL修复：限制https请求的TLS最大版本1.2,因为TLS1.3可能存在算法不支持|3.DLL修复：修复POST请求可能存在丢失Body的问题|4.DLL修复：修复载入P12证书,密码正确也提示失败的问题|5.C#示例修复一处可能引起闪退的问题"
+    },
+    {
+      "version": "2023-08-17",
+      "downloadUrl": "https://wwxa.lanzouc.com/b0ci5gt4f",
+      "downloadPassword": "dmtb",
+      "description": "1.DLL.修复TCP首次发送数据时候，可能无法关闭主动TCP连接，无法主动向客户端、服务器发送数据的BUG|2.DLL.ws主动发送数据参数改为由MessageId改为唯一ID 【需更新模块，DLL，示例代码】|3.DLL.新增ws主动与服务器断开连接|4.DLL.修复1处可能识别http请求HOST错误的代码|5.抓包工具.新增主动断开TCP,Websocket"
+    },
+    {
+      "version": "2023-08-15",
+      "downloadUrl": "https://wwxa.lanzouk.com/b0ci4ac9g",
+      "downloadPassword": "atr1",
+      "description": "1.DLL新增一个获取DLL版本的命令|2.示例代码更新,使用DLL命令获取DLL版本|3.抓包工具修复删除信息时,可能闪退问题|4.抓包工具修复一些小问题！"
+    },
+    {
+      "version": "2023-08-05",
+      "downloadUrl": "https://wwxa.lanzouk.com/b0ci1y6mj",
+      "downloadPassword": "hbm0",
+      "description": "1.修复一处可能导致内存溢出的问题，需更新模块，DLL，示例代码（否则内存不会释放）|2.C# 示例代码，修复一处可能导致MessageID错误问题。|3.新增，电脑本机设置代理（例如设置IE代理），识别请求由哪个进程发起|4.抓包工具，新增禁用UDP选项,新增过滤PID,进程名|5.修复UDP抓不到返回数据问题.(目前问题,若UDP服务器(A)在本机，UDP客户端(B)也在本机，B首次向A发送数据，需要发送2次，A才能收到，NF驱动问题，暂无解决方案)"
+    },
+    {
+      "version": "2023-07-22",
+      "downloadUrl": "https://wwxa.lanzouk.com/b0chzr6pi",
+      "downloadPassword": "8q50",
+      "description": "1.DLL->修复PB解析的一处错误|2.DLL->修复UDP拦截的BUG|3.DLL->优化加载驱动后目标进程已经连接的TCP没有断开无法抓包问题|4.抓包工具->修复1处BUG"
+    },
+    {
+      "version": "2023-06-19",
+      "downloadUrl": "https://wwxa.lanzouk.com/b0chvskji",
+      "downloadPassword": "85bl",
+      "description": "DLL->1.修复服务器返回协议头大小写问题|2.抓包工具、DLL->新增支持设置CER，PEM证书进行请求,未具体测试(之前只能设置P12证书)|3.抓包工具->修复列表区按键盘上下选择问题|4.抓包工具->优化颜色标记加粗字体|5.抓包工具->优化批量重发可能闪退|6.抓包工具->优化过滤显示没有数据的TCP请求"
+    },
+    {
+      "version": "2023-06-16",
+      "downloadUrl": "https://wwxa.lanzouk.com/b0chvgpre",
+      "downloadPassword": "6lo8",
+      "description": "1.DLL->新增UDP，优化设置界面.登录|需更新DLL、模块、主程序"
+    },
+    {
+      "version": "2023-06-05",
+      "downloadUrl": "https://wwxa.lanzouk.com/b0chu6ylg",
+      "downloadPassword": "8xh5",
+      "description": "1.DLL->修复2处可能导致闪退的问题|2.DLL->新增IPV6的支持|（例如你的网络环境支持IPV6，请求目标网址实际是连接对方IPV6地址，这种情况之前版本是抓不到的）|3.抓包工具->修正驱动文件描述|4.抓包工具->优化禁止浏览器缓存功能|5.抓包工具->优化复制文本|6.抓包工具->优化TCP、ws新增停止插入[发送、接收]"
+    },
+    {
+      "version": "2023-05-27",
+      "downloadUrl": "https://wwxa.lanzouk.com/b0chsxbwj",
+      "downloadPassword": "8var",
+      "description": "1.DLL修复PB转JSON可能存在的1处问题|2.DLL修复1处可能导致闪退的问题|3.抓包工具修复1处搜索BUG"
+    },
+    {
+      "version": "2023-05-07",
+      "downloadUrl": "https://wwxa.lanzouy.com/b0chqh3ij",
+      "downloadPassword": "86vq",
+      "description": "1.修复一个代理Bug"
+    },
+    {
+      "version": "2023-04-24",
+      "downloadUrl": "https://wwxa.lanzouy.com/b0chonmhg",
+      "downloadPassword": "fboi",
+      "description": "1.DLL修复ws客户端可能导致闪退的1个问题|2.抓包工具修复搜索时的大小写问题|3.抓包工具修复TCP无法中断停止插入数据"
+    },
+    {
+      "version": "2023-04-09",
+      "downloadUrl": "https://wwxa.lanzouy.com/b0chmo96b",
+      "downloadPassword": "1cv4",
+      "description": "修复POST上传大数据时，可能卡住的问题"
+    },
+    {
+      "version": "2023-04-03",
+      "downloadUrl": "https://wwxa.lanzouy.com/b0chlvene",
+      "downloadPassword": "bw06",
+      "description": "修复协议头值可能出现\": \"的问题 例如 Token: {\"Token\": \"123456789\"} 出错的问题"
+    },
+    {
+      "version": "2023-03-29",
+      "downloadUrl": "https://wwf.lanzouy.com/b0ch179na",
+      "downloadPassword": "6m1x",
+      "description": "增加了TCP，ws/wss 可主动向客户端发送数据"
+    },
+    {
+      "version": "2022-09-22",
+      "downloadUrl": "https://wwc.lanzouy.com/b0cgv9uba",
+      "downloadPassword": "a348",
+      "description": "1.DLL重写调用驱动相关|2.DLL修复httpPOST请求特定情况下Body错误的情况|3.抓包工具添加WS/TCP请求复制消息停止插入的功能"
+    },
+    {
+      "version": "2022-09-19",
+      "downloadUrl": "https://wwc.lanzouy.com/b0cguwl5c",
+      "downloadPassword": "925d",
+      "description": "1.DLL修复仅转发时的提示问题"
+    },
+    {
+      "version": "2022-09-16",
+      "downloadUrl": "https://wwc.lanzouy.com/b0cgukuhg",
+      "downloadPassword": "gdzl",
+      "description": "1.DLL更新一个功能|2.抓包工具主要更新UI|3.WS、TCP请求增加清空，解决数据错乱等问题，增加PB数据解析，优化搜索功能|4.易语言模块http发起请求时增加终止请求命令|5.C#增加终止请求命令"
+    },
+    {
+      "version": "2022-09-04",
+      "downloadUrl": "https://wwc.lanzouy.com/b0cgt238b",
+      "downloadPassword": "750z",
+      "description": "修复 于上个版本（2022-09-03）加载DLL会导致出现cmd黑窗口一闪而过的问题"
+    },
+    {
+      "version": "2022-09-03",
+      "downloadUrl": "https://wwc.lanzouy.com/b0cgt031c",
+      "downloadPassword": "g4m5",
+      "description": "1.DLL修复手机谷歌浏览器提示证书时间过长问题"
+    }
+  ]
+}

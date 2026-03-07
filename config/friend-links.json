@@ -1,0 +1,30 @@
+{
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/qtgolang/SunnyNet",
+      "description": "Github开源地址"
+    },
+    {
+      "name": "Gitee",
+      "url": "https://gitee.com/qtr/SunnyNet",
+      "description": "Gitee开源地址"
+    },
+    {
+      "name": "NetFilter",
+      "url": "https://www.netfiltersdk.com/",
+      "description": "Windows 网络过滤 SDK"
+    },
+    {
+      "name": "WinDivert",
+      "url": "https://reqrypt.org/windivert-doc.html",
+      "description": "Windows 数据包捕获与重定向"
+    }
+  ],
+  "excellentWorks": [
+    {
+      "name": "Fatbeans",
+      "url": "https://www.fatbeans.cn/",
+      "description": "Fatbeans(肥豆)是一款专业的Windows网络调试工具，工作在网络层，无需注入目标进程即可实现TCP、UDP、HTTP、HTTPS、WebSocket(WS/WSS)抓包、协议分析、数据拦截、内容修改和自定义发包等全能操作。 广泛应用于网络协议开发、接口调试、安全分析、性能优化等场景，是开发者和网络工程师的得力助手。"
+    }]
+}

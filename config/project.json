@@ -1,0 +1,23 @@
+{
+  "title": "SunnyNet 网络中间件",
+  "subtitle": "产品介绍",
+  "description": "开源的可跨平台的网络分析组件 - 可用于 HTTP/HTTPS/WS/WSS/TCP/UDP 网络分析",
+  "features": [
+    "支持 获取/修改 HTTP/HTTPS/WS/WSS/TCP/TLS-TCP/UDP 发送及返回数据",
+    "支持 对 HTTP/HTTPS/WS/WSS 指定连接使用指定代理",
+    "支持 对 HTTP/HTTPS/WS/WSS/TCP/TLS-TCP 链接重定向",
+    "支持 gzip, deflate, br 解码",
+    "支持 WS/WSS/TCP/TLS-TCP/UDP 主动发送向、客户端、服务端数据",
+    "Windows 支持 NetFilter / Proxifier / WinDivert 方式捕获全局流量",
+    "Android/Linux 支持 Tun 方式捕获全局流量",
+    "MacOs 支持 uTun 方式捕获全局流量"
+  ],
+  "highlight": "专为二次开发量身制作",
+  "license": "MIT开源协议",
+  "licenseText": [
+    "特此向任何获得该软件副本或相关文档的人免费授予许可，可随意处理本软件，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或销售本软件的副本，并允许提供该软件的人可以按照下述条件对其进行操作：",
+    "1. 本软件的所有副本或重要部分必须包含上述版权声明和本许可声明。",
+    "2. 本软件按\"原样\"提供，不附带任何明示或暗示的保证，包括但不限于适销性、特定用途适应性和非侵权。在任何情况下，作者或版权持有人均不对任何索赔、损害或其他责任负责。"
+  ],
+  "copyright": "版权所有 (C) 2025 秦天"
+}

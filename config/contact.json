@@ -1,0 +1,31 @@
+{
+  "title": "联系我们",
+  "description": "加入 QQ 交流群或 QQ 频道获取帮助与交流。",
+  "items": [
+    {
+      "label": "SunnyNet QQ交流群(一群)",
+      "value": "751406884",
+      "type": "qq"
+    },
+    {
+      "label": "SunnyNet QQ交流群(二群)",
+      "value": "545120699",
+      "type": "qq"
+    },
+    {
+      "label": "SunnyNet QQ交流群(三群)",
+      "value": "170902713",
+      "type": "qq"
+    },
+    {
+      "label": "SunnyNet QQ交流群(四群)",
+      "value": "1070797457",
+      "type": "qq"
+    },
+    {
+      "label": "QQ频道",
+      "url": "https://pd.qq.com/g/SunnyNetV5",
+      "type": "link"
+    }
+  ]
+}

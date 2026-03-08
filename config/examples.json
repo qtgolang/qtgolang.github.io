@@ -39,7 +39,7 @@
         "Java": ["Main.java", "TestCallback_SunnyNet.java"],
         "Android": ["MainActivity.java", "TestCallback_SunnyNet.java"],
         "Python": ["main.py"],
-        "易语言": ["WebSocket回调示例.e"]
+        "易语言": ["WebSocket回调函数示例.e"]
       }
     },
     {

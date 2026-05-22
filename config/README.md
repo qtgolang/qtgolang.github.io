@@ -5,6 +5,7 @@
 - 修改后刷新页面即可生效
 
 ## versions.json - 版本下载
+- **opensource**（可选）: 置顶开源卡片，显示在「最新版本」上方。{ title, version?, description?, github?, downloadUrl? }，如最新 Go 版 / macOS 开源版（同一仓库地址）
 - **latest**: 最新版本 { version, date, downloadUrl, **downloadPassword**（可选）, description }
 - **history**: 历史版本数组，每项同上
 - **downloadPassword**：下载密码（可选），有则页面上显示并可复制；为空则不显示该行

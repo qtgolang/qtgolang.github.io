@@ -1,4 +1,11 @@
 {
+  "opensource": {
+    "title": "最新Go版本 / MacOs开源版本",
+    "version": "v1.0.0",
+    "github": "https://github.com/qtgolang/SunnyNetTools",
+    "downloadUrl": "https://github.com/qtgolang/SunnyNetTools/releases/latest",
+    "description": "Go 语言写的 SunnyNet 抓包工具，开源发布；支持 Windows，macOS 提供 Intel 与 Apple Silicon（M 系列）安装包"
+  },
   "latest": {
     "version": "2025-10-24",
     "downloadUrl": "https://wwxa.lanzouu.com/b02p4aet8j",
